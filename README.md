@@ -4,7 +4,11 @@
 
 To indicate that a variable is an array type in typescript you indicate the type and then add "[]" after to indicate that is an array of whatever type you told it.
 
-In this lesson, persons is an array of objects -> "const persons:{}[] = [{...}]"
+In this lesson, persons is an array of objects:
+
+```javascript
+const persons:{}[] = [{...}]
+```
 
 But anything can be added to show that it is an "something" array:
 
@@ -16,7 +20,11 @@ const persons:{name: string job: string age: number}[]
 
 #### Line 19
 
-In the line -> "document.getElementById("app")!.innerHTML=<ul>${liListString}</ul>"
+In the line:
+
+```javascript
+document.getElementById("app")!.innerHTML=<ul>${liListString}</ul>
+```
 
 "!" is used to indicate that the document.getElementById('app') should not return as Null or undefined. For reasons, typescript shows that when retrieving that element, it can either return as HTML or as Null.
 
@@ -26,7 +34,9 @@ In the line -> "document.getElementById("app")!.innerHTML=<ul>${liListString}</u
 
 Interfaces in Typescript are used to create custom Types. In our persons example, a person in the persons object array is:
 
+```javascript
 { name: string job: string age: number }
+```
 
 We use an interface to create a type so that we don't need to continually copy and paste that a person has a name, job, and age. Like so:
 
