@@ -45,6 +45,11 @@ interface Person {
   name: string
   job: string
   age: number
+  isHappy?: boolean
+  // We can even add an array inside the interface - the one below expects our Person typed array
+  friendList?: Person[]
+  // Functions can be added as well.
+  sayHi?: () => void
 }
 
 const persons: Person[] = [
