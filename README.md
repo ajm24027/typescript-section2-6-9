@@ -1,4 +1,4 @@
-# typescript-section2-6-9
+# typescript-section2-"Arrays, OOP, Interfaces"
 
 ### Arrays
 
