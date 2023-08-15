@@ -30,7 +30,7 @@ Interfaces in Typescript are used to create custom Types. In our persons example
 
 We use an interface to create a type so that we don't need to continually copy and paste that a person has a name, job, and age. Like so:
 
-```
+```typescript
 interface Person {
   name: string
   job: string
@@ -38,8 +38,8 @@ interface Person {
 }
 
 const persons: Person[] = [
-    {name: "Alice", job: 'Front-end Dev', age: 28},
-    {name: "Bob", job: 'Back-end Dev', age: 28},
-    {name: "Codiku", job: 'Full Stack Dev', age: 28},
-  ]
+  { name: 'Alice', job: 'Front-end Dev', age: 28 },
+  { name: 'Bob', job: 'Back-end Dev', age: 28 },
+  { name: 'Codiku', job: 'Full Stack Dev', age: 28 }
+]
 ```
